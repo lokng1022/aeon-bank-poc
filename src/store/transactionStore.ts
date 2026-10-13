@@ -5,9 +5,9 @@ import { sortTransactionsByLatest } from '@/utils/transactions';
 import { MockTransactionRepository } from '@repositories/MockTransactionRepository';
 
 export interface TransactionState {
-    transactions: readonly Transaction[];
+    transactions: Transaction[];
     isLoading: boolean;
-    error: 'LOAD_TRANSACTIONS_FAILED' | null;
+    error: 'FETCH_TRANSACTIONS_FAILED' | null;
     fetchTransactions: () => Promise<void>;
     getTransactionByRefId: (refId: string) => Transaction | undefined;
 }
@@ -42,7 +42,7 @@ export const useTransactionStore = create<TransactionState>()(
                 });
             } catch {
                 set({
-                    error: 'LOAD_TRANSACTIONS_FAILED',
+                    error: 'FETCH_TRANSACTIONS_FAILED',
                 });
             } finally {
                 set({
