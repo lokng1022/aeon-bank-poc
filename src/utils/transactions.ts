@@ -1,10 +1,11 @@
-import type { Transaction } from '../types/transaction';
+import type { Transaction } from '@/types/transaction';
 
 export function sortTransactionsByLatest(
-  transactions: Transaction[],
+  transactions: readonly Transaction[],
 ): Transaction[] {
   return [...transactions].sort(
-    (a, b) =>
-      Date.parse(b.transferDate) - Date.parse(a.transferDate),
+    (first, second) =>
+      Date.parse(second.transferDate) -
+      Date.parse(first.transferDate),
   );
 }
