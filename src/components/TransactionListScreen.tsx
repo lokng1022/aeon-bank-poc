@@ -104,7 +104,7 @@ export function TransactionListScreen({
                 />
               ) : error ? (
                 <StateMessage
-                  title={t('errors.LOAD_TRANSACTIONS_FAILED')}
+                  title={t('errors.FETCH_TRANSACTIONS_FAILED')}
                   onRetry={reload}
                 />
               ) : (
