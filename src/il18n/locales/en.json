@@ -5,7 +5,6 @@
   "transactions": {
     "title": "Transactions",
     "heading": "Recent activity",
-    "subtitle": "Latest first · MYR · Malaysia time",
     "loading": "Loading transactions",
     "emptyTitle": "No transactions yet",
     "emptyDescription": "Your incoming and outgoing transfers will appear here.",
@@ -24,13 +23,18 @@
     "date": "Transfer date (Malaysia time)",
     "direction": "Direction",
     "share": "Share receipt",
-    "sharing": "Opening share sheet…",
     "unavailableTitle": "Transaction unavailable",
-    "unavailableDescription": "Go back to your activity and refresh the list."
+    "unavailableDescription": "Go back to your activity and refresh the list.",
+    "brand": "AEON Bank POC",
+    "sharePdf": "Share PDF receipt",
+    "shareText": "Share as text",
+    "sharing": "Preparing to share…",
+    "demoNote": "Demo receipt."
   },
   "errors": {
-    "LOAD_TRANSACTIONS_FAILED": "Unable to load transactions. Please try again.",
+    "FETCH_TRANSACTIONS_FAILED": "Unable to load transactions. Please try again.",
     "refreshFailed": "Couldn’t refresh. Showing previously loaded transactions.",
-    "shareFailed": "Unable to share this receipt. Please try again."
+    "shareFailed": "Unable to share this receipt. Please try again.",
+    "pdfUnavailable": "PDF sharing is unavailable on this device."
   }
 }
