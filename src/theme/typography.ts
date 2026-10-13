@@ -1,4 +1,4 @@
-export const fontSizes = {
+export const fontSize = {
   caption: 12,
   body: 14,
   bodyLarge: 16,
@@ -6,9 +6,9 @@ export const fontSizes = {
   amount: 32,
 };
 
-export const fontWeights = {
+export const fontWeight = {
   regular: '400',
   medium: '500',
   semibold: '600',
   bold: '700',
-};
+} as const;

@@ -12,4 +12,4 @@ export const colors = {
 
   incoming: '#6BDCA2',
   outgoing: '#FF9292',
-} as const;
+};
