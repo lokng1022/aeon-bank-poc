@@ -5,7 +5,9 @@
   "dependencies": {
     "expo": "~57.0.28",
     "expo-status-bar": "~57.0.1",
+    "i18next": "^26.4.4",
     "react": "19.2.3",
+    "react-i18next": "^17.0.16",
     "react-native": "0.86.3",
     "zustand": "^5.0.15"
   },

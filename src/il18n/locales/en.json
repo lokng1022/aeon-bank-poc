@@ -1,0 +1,36 @@
+{
+  "common": {
+    "retry": "Try again"
+  },
+  "transactions": {
+    "title": "Transactions",
+    "heading": "Recent activity",
+    "subtitle": "Latest first · MYR · Malaysia time",
+    "loading": "Loading transactions",
+    "emptyTitle": "No transactions yet",
+    "emptyDescription": "Your incoming and outgoing transfers will appear here.",
+    "incoming": "Incoming",
+    "outgoing": "Outgoing",
+    "openDetails": "View transaction details"
+  },
+  "receipt": {
+    "title": "Transaction details",
+    "heading": "Transaction receipt",
+    "amountCaption": "Transaction amount",
+    "amount": "Amount",
+    "transferName": "Transfer",
+    "referenceId": "Reference ID",
+    "recipient": "Recipient",
+    "date": "Transfer date (Malaysia time)",
+    "direction": "Direction",
+    "share": "Share receipt",
+    "sharing": "Opening share sheet…",
+    "unavailableTitle": "Transaction unavailable",
+    "unavailableDescription": "Go back to your activity and refresh the list."
+  },
+  "errors": {
+    "LOAD_TRANSACTIONS_FAILED": "Unable to load transactions. Please try again.",
+    "refreshFailed": "Couldn’t refresh. Showing previously loaded transactions.",
+    "shareFailed": "Unable to share this receipt. Please try again."
+  }
+}
