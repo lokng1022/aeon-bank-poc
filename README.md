@@ -46,22 +46,17 @@ The screenshots below were captured on Android using mock transaction data.
 
 | Location | Responsibility |
 | --- | --- |
-| `assets/` | Static application assets |
-| `docs/screenshots/` | Screenshots referenced by this README |
 | `src/api/` | Data-source access and mock responses |
 | `src/components/` | Reusable rows, detail fields, buttons, and state messages |
 | `src/i18n/` | i18next initialization and English translation resources |
 | `src/navigation/` | Native stack and screen navigation |
 | `src/repositories/` | Transaction repository interface and data-source implementations |
-| `src/screens/` | Transaction history and transaction detail screens |
 | `src/services/` | PDF generation, cached file creation, and native sharing |
 | `src/store/` | Zustand store and transaction actions |
 | `src/theme/` | Shared colors, spacing, typography, and corner radii |
 | `src/types/` | Transaction, navigation, and translation types |
 | `src/utils/` | Sorting, amount/date formatting, and receipt HTML formatting |
 | `src/__tests__/` | Unit test suites and reusable test fixtures |
-| `App.tsx` | Application providers and navigator |
-| `index.ts` | Expo application registration |
 
 ### Architecture
 
